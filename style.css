@@ -1,0 +1,109 @@
+/*!
+ * Theme Name: Writing
+ * Theme URI: http://themes.xiguabaobao.com/Writing/
+ * Description: Writing主题（免费） BUG反馈：<a href="http://themes.xiguabaobao.com/Writing/#respond">西瓜宝宝主题</a>
+ * Author: 西瓜宝宝主题
+ * Author URI: http://themes.xiguabaobao.com
+ * Version: 1.0
+ * © 2014 themes.xiguabaobao.com. All rights reserved.
+ */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.5em;margin:.83em 0}
+h3{font-size:1.17em;margin:1em 0}
+h4{font-size:1em;margin:1.33em 0}
+h5{font-size:.83em;margin:1.67em 0}
+h6{font-size:.75em;margin:2.33em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0}
+code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:before,q:after{content:'';content:none}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+dl,menu,ol,ul{margin:1em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0;white-space:normal;*margin-left:-7px}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+body{background-color:#292d33;color:#666;font-family:Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif}
+a{color:#5bad8a;text-decoration:none}
+a:hover{color:#5bad8a;text-decoration:underline}
+.clearfix:before,.clearfix:after{clear:both;content:" ";display:table;font-size:0;height:0;visibility:hidden}
+.container{width:80%;max-width:700px;margin:0 auto}
+
+.header{background-color:#292d33;color:#fff;text-align:left;padding:2em 0}
+.header a{color:#fff;text-decoration:none}
+.header a:hover{color:#fff;text-decoration:none}
+.header p{color:#999}
+
+.nav a{padding:4px 10px;display:inline-block}
+.nav a:hover,.nav a.current{background-color:#111;color:#fff;border-radius:4px}
+
+.content{background-color:#fff;padding:20px 0}
+
+.entry{padding:40px 0;border-bottom:1px solid #f2f2f2}
+.entry-left{float:left;width:80%}
+.entry-right{float:right;width:20%;text-align:right;line-height:30px}
+.entry-title{color:#333;margin:0 0 5px;font-family:Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif}
+.entry-title a{color:#333}
+.entry-title a:hover{color:#333;text-decoration:none}
+.entry-meta{margin-top:10px;line-height:30px;font-size:13px;color:#b7b7b7}
+.entry-meta a,.entry-right a{color:#b7b7b7;text-decoration:none;font-size:13px}
+.entry-meta a:hover,.entry-right a:hover{color:#b7b7b7;text-decoration:underline}
+.entry-author img{width:32px;height:32px;vertical-align:top;border-radius:50%}
+
+.post{padding-top:40px}
+.post-tags{margin:20px 0}
+.post-tags a,.date{color:#b7b7b7;text-decoration:none;font-size:13px}
+.post-tags a:hover{color:#b7b7b7;text-decoration:underline}
+.post-related{border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2}
+
+.page-navigator{margin:0;padding:40px 0 20px;list-style:none}
+.page-navigator li{display:inline-block;margin:0 4px}
+.page-navigator li a{display:inline-block;padding:4px 10px;border:1px solid #57ad68;border-radius:50%}
+.page-navigator li a:hover,.page-navigator li.current a{background-color:#57ad68;color:#fff;text-decoration:none}
+
+.footer{padding:25px 0;background-color:#292d33;color:#fff}
+.footer a{color:#fff;text-decoration:none}
+.footer-left{width:50%;float:left}
+.footer-right{width:50%;float:right;text-align:right}
+
+@media(max-width:768px){
+	.entry-left{width:100%}
+	.entry-right{display:none}
+	
+	.footer-left{width:100%;float:left;text-align:center}
+	.footer-right{width:100%;float:right;text-align:center;margin-top:10px}
+}
