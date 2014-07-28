@@ -19,10 +19,10 @@
 <body>
 	<div class="header">
 		<div class="container">
-			<a href="<?php $this->options->siteUrl(); ?>">
-				<h1><?php $this->options->title(); ?></h1>
+			<a href="<?php $this->options->siteUrl(); ?>" class="site-title">
+				<?php $this->options->title(); ?>
 			</a>
-			<p><?php $this->options->description() ?></p>
+			<p class="site-description"><?php $this->options->description() ?></p>
 
 			<div class="nav" role="navigation">
 				<a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a>

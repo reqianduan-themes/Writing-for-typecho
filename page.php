@@ -8,7 +8,7 @@
 						<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
 					</h1>
 					
-					<div class="entry-description"><?php echo $this->fields->description;?></div>
+					<div><?php echo $this->fields->description;?></div>
 					
 					<div class="entry-meta">
 						<a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author" class="entry-author">
@@ -37,24 +37,8 @@
 
 			<!-- share -->				
 
-			<div class="post-related">
-				<h4 class="">Further reading</h4>
-				<ul class="">
-					<li>没有相关文章!</li>
-				</ul>
-			</div>
-
 			<?php $this->need('comments.php'); ?>
 
-			<div class="pager" role="pager">
-				<div class="prev">
-					<?php $this->thePrev('上一篇 : %s', '没有上一篇'); ?>
-				</div>
-				<div class="next">
-					<?php $this->theNext('下一篇 : %s', '没有下一篇'); ?>
-				</div>
-				<div class="clearfix"></div>
-			</div>
 		</div>
 	</div>
 
