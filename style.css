@@ -115,6 +115,8 @@ a:hover{color:#5bad8a;text-decoration:underline}
 .footer-right{width:50%;float:right;text-align:right}
 
 @media(max-width:768px){
+	.header{text-align:center;}
+	
 	.container{width:auto;padding:0 10px;}
 
 	.entry-left{width:100%}
