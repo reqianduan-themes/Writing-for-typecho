@@ -90,6 +90,7 @@ a:hover{color:#5bad8a;text-decoration:underline}
 .post-content{margin:15px 0;}
 .post-content img{max-width:100%;width:auto;height:auto;}
 .post-content hr{width:14%;}
+.post-content p{line-height:2em;}
 .post-tags{margin:20px 0;color:#b7b7b7;font-size:13px}
 .post-tags a,.date{color:#b7b7b7;text-decoration:none;font-size:13px}
 .post-tags a:hover{color:#b7b7b7;text-decoration:underline}

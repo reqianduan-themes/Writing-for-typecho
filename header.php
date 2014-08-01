@@ -22,6 +22,7 @@
 			<a href="<?php $this->options->siteUrl(); ?>" class="site-title">
 				<?php $this->options->title(); ?>
 			</a>
+			
 			<p class="site-description"><?php $this->options->description() ?></p>
 
 			<div class="nav" role="navigation">
