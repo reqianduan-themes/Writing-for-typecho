@@ -9,15 +9,6 @@
 					</h1>
 					
 					<div><?php echo $this->fields->description;?></div>
-					
-					<div class="entry-meta">
-						<a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author" class="entry-author">
-							<?php $this->author->gravatar('64') ?>
-							<?php $this->author(); ?>
-						</a>
-						in
-						<?php $this->category(','); ?>
-					</div>
 				</div>
 
 				<div class="entry-right">			
@@ -30,10 +21,6 @@
 			<div class="post-content" itemprop="articleBody">
                 <?php $this->content(); ?>
             </div>
-
-			<div class="post-tags" itemprop="keywords">
-				<?php $this->tags(' ', true, 'none'); ?>
-			</div>
 
 			<!-- share -->				
 
