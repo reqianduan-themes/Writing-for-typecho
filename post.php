@@ -32,17 +32,17 @@
             </div>
 
 			<div class="post-tags" itemprop="keywords">
-				<?php $this->tags(' ', true, 'none'); ?>
+				<?php $this->tags(' ', true, '没有标签'); ?>
 			</div>
 
 			<!-- share -->				
 
-			<div class="post-related">
+			<!-- <div class="post-related">
 				<h4 class="">Further reading</h4>
 				<ul class="">
 					<li>没有相关文章!</li>
 				</ul>
-			</div>
+			</div> -->
 
 			<?php $this->need('comments.php'); ?>
 
