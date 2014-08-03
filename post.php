@@ -48,10 +48,10 @@
 
 			<div class="pager" role="pager">
 				<div class="prev">
-					<?php $this->thePrev('上一篇 : %s', '没有上一篇'); ?>
+					<?php $this->theNext('上一篇 : %s', '没有上一篇'); ?>
 				</div>
 				<div class="next">
-					<?php $this->theNext('下一篇 : %s', '没有下一篇'); ?>
+					<?php $this->thePrev('下一篇 : %s', '没有下一篇'); ?>
 				</div>
 				<div class="clearfix"></div>
 			</div>
