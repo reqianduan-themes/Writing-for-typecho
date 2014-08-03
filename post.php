@@ -15,7 +15,7 @@
 							<?php $this->author->gravatar('64') ?>
 							<?php $this->author(); ?>
 						</a>
-						in
+						<small>post in</small>
 						<?php $this->category(','); ?>
 					</div>
 				</div>
