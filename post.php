@@ -45,16 +45,20 @@
 			</div> -->
 
 			<?php $this->need('comments.php'); ?>
+		</div>
 
-			<div class="pager" role="pager">
-				<div class="prev">
-					<?php $this->theNext('上一篇 : %s', '没有上一篇'); ?>
-				</div>
-				<div class="next">
-					<?php $this->thePrev('下一篇 : %s', '没有下一篇'); ?>
-				</div>
-				<div class="clearfix"></div>
+		<div class="pager" role="pager">
+			<div class="prev">
+				<?php $this->theNext('%s', '<a href="javascript:void(0);">没有上一篇</a>'); ?>
+				<span>&larr;</span>
 			</div>
+
+			<div class="next">
+				<?php $this->thePrev('%s', '<a href="javascript:void(0);">没有下一篇</a>'); ?>
+				<span>&rarr;</span>
+			</div>
+
+			<div class="clearfix"></div>
 		</div>
 	</div>
 

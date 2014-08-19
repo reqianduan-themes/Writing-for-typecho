@@ -58,8 +58,8 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 
 body{background-color:#292d33;color:#333;font:16px/1.6 Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif}
-a{color:#5bad8a;text-decoration:none;word-break:break-word;}
-a:hover{color:#5bad8a;text-decoration:underline}
+a{color:#ff6d6d;text-decoration:none;word-break:break-word;}
+a:hover{color:#ff4242;text-decoration:underline}
 .clearfix:before,.clearfix:after{clear:both;content:" ";display:table;font-size:0;height:0;visibility:hidden}
 .container{width:80%;max-width:700px;margin:0 auto}
 
@@ -72,7 +72,7 @@ a:hover{color:#5bad8a;text-decoration:underline}
 .nav a{padding:4px 10px 4px 0;display:inline-block;color:#999;}
 .nav a:hover,.nav a.current{color:#fff;border-radius:4px}
 
-.content{background-color:#fff;padding:20px 0}
+.content{background-color:#fff;padding:20px 0;overflow:hidden}
 
 .entry{padding:40px 0;border-bottom:1px solid #f2f2f2}
 .entry-left{float:left;width:80%}
@@ -103,11 +103,18 @@ a:hover{color:#5bad8a;text-decoration:underline}
 .pagination .prev{float:left;}
 .pagination .next{float:right;}
 
-.pager{padding:40px 0 20px;}
-.pager a{border-radius:50%;color:#999}
+.pager{cursor:pointer;}
+.pager a{display:inline-block;width:150px;background:#eee;color:#999;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:margin 0.17s ease-in-out;}
 .pager a:hover{text-decoration:none}
-.pager .prev{float:left;}
-.pager .next{float:right;}
+.pager span{display:inline-block;padding:8px 12px;background:#eee;color:#999;}
+.pager .prev{position:fixed;top:50%;left:0;float:left;text-align:right;}
+.pager .prev a{float:left;margin-left:-174px;padding:8px 5px;}
+.pager .prev span{border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.pager .prev:hover a{margin-left:0;}
+.pager .next{position:fixed;top:50%;right:0;float:right;text-align:left;}
+.pager .next a{float:right;margin-right:-174px;padding:8px 0;}
+.pager .next span{border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.pager .next:hover a{margin-right:0;}
 
 .footer{padding:25px 0;background-color:#292d33;color:#fff}
 .footer a{color:#fff;text-decoration:none}
@@ -122,6 +129,8 @@ a:hover{color:#5bad8a;text-decoration:underline}
 	.entry-left{width:100%}
 	.entry-right{display:none}
 	
+	.pager .prev, .pager .next{position:relative;}
+
 	.footer-left{width:100%;float:left;text-align:center}
 	.footer-right{width:100%;float:right;text-align:center;margin-top:10px}
 }
