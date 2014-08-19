@@ -24,6 +24,7 @@ h5{font-size:.83em;margin:1.67em 0}
 h6{font-size:.75em;margin:2.33em 0}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
 dfn{font-style:italic}
 mark{background:#ff0;color:#000}
 p,pre{margin:1em 0}
@@ -153,7 +154,7 @@ h1{margin:60px 0 40px}
 h2{margin:50px 0 30px}
 h3{margin:35px 0 20px}
 h4,h5,h6{margin:25px 0 15px}
-p,pre,pre.prettyprint,blockquote{margin:1em 0;}
+p,pre,pre.prettyprint,blockquote{margin:0 0 15px}
 hr{margin:40px auto 30px auto;border:0;border-top:1px solid #EAEAEA;}
 code,pre{font-family:Menlo,Consolas,"Courier New",monospace;font-size:12px !important}
 pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:10px solid rgba(102,128,153,0.75);border-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px 15px}
@@ -166,8 +167,9 @@ table th,table td{padding:8px;line-height:20px;text-align:left;vertical-align:to
 table th{font-weight:bold}
 table thead th{vertical-align:bottom}
 table tbody+tbody{border-top:2px solid #dddddd}
-blockquote{border-left-width:10px;background-color:rgba(102,128,153,0.05);border-top-right-radius:5px;border-bottom-right-radius:5px}
+blockquote{border-left-width:10px;background-color:rgba(102,128,153,0.05);border-top-right-radius:5px;border-bottom-right-radius:5px;padding:15px 20px}
 blockquote p{margin-bottom:15px;font-size:14px;line-height:1.428571429}
 blockquote ul:last-child,blockquote ol:last-child{margin-bottom:0}
+ul,ol{margin-bottom:15px}
 ul ul,ol ul,ul ol,ol ol{margin-bottom:15px}
 kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:0 1px 0 rgba(22,32,41,0.25);box-shadow:0 1px 0 rgba(22,32,41,0.25);font-size:11px;font-family:Arial,Helvetica,sans-serif;background-color:#fff;color:#333;border-radius:3px;display:inline-block;margin:0 0.1em;white-space:nowrap}
