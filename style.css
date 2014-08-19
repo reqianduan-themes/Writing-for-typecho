@@ -58,7 +58,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 
 body{background-color:#292d33;color:#333;font:16px/1.6 Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif}
-a{color:#ff6d6d;text-decoration:none;word-break:break-word;}
+a{color:#57ad68;text-decoration:none;word-break:break-word;}
 a:hover{color:#ff4242;text-decoration:underline}
 .clearfix:before,.clearfix:after{clear:both;content:" ";display:table;font-size:0;height:0;visibility:hidden}
 .container{width:80%;max-width:700px;margin:0 auto}
