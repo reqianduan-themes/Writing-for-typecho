@@ -76,15 +76,15 @@ a:hover{color:#ff4242;text-decoration:underline}
 
 .entry{padding:40px 0;border-bottom:1px solid #f2f2f2}
 .entry-left{float:left;width:80%}
-.entry-right{float:right;width:20%;text-align:right;line-height:30px}
 .entry-title{color:#333;margin:0 0 5px;font-size:24px;font-family:Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif}
 .entry-title a{color:#333}
 .entry-title a:hover{color:#333;text-decoration:none}
-.entry-description{color:#888;font-family:Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif;}
-.entry-meta{margin-top:10px;line-height:30px;font-size:13px;color:#b7b7b7}
-.entry-meta a,.entry-right a{color:#b7b7b7;text-decoration:none;font-size:13px}
+.entry-description{color:#888;font-size:12px;}
+.entry-meta{line-height:30px;font-size:12px;font-family:"Microsoft Yahei";color:#b7b7b7}
+.entry-meta a,.entry-right a{color:#b7b7b7;text-decoration:none;font-size:12px}
 .entry-meta a:hover,.entry-right a:hover{color:#b7b7b7;text-decoration:underline}
 .entry-author img{width:32px;height:32px;vertical-align:top;border-radius:50%}
+.entry-right{float:right;width:20%;text-align:right;line-height:30px;font-size:12px;font-family:"Microsoft Yahei";color:#b7b7b7;}
 
 .post{padding-top:40px}
 .post-content{margin:15px 0;}
@@ -92,7 +92,7 @@ a:hover{color:#ff4242;text-decoration:underline}
 .post-content hr{width:14%;}
 .post-content p{line-height:2em;}
 .post-tags{margin:20px 0;color:#b7b7b7;font-size:13px}
-.post-tags a,.date{color:#b7b7b7;text-decoration:none;font-size:13px}
+.post-tags a{color:#b7b7b7;text-decoration:none;font-size:13px}
 .post-tags a:hover{color:#b7b7b7;text-decoration:underline}
 .post-related{border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2}
 .post-related h2{font-size:16px}

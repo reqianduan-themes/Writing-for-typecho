@@ -16,20 +16,19 @@
 			<?php while($this->next()): ?>
 				<div class="entry">
 					<div class="entry-left">
-						<h2 class="entry-title">
-							<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
-						</h2>
-						
-						<div class="entry-description"><?php echo $this->fields->description;?></div>
-						
 						<div class="entry-meta">
 							<a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author" class="entry-author">
-								<?php $this->author->gravatar('64') ?>
 								<?php $this->author(); ?>
 							</a>
 							<small>post in</small>
 							<?php $this->category(','); ?>
 						</div>
+
+						<h2 class="entry-title">
+							<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
+						</h2>
+						
+						<div class="entry-description"><?php echo $this->fields->description;?></div>
 					</div>
 
 					<div class="entry-right">			
