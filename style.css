@@ -69,8 +69,8 @@ a:hover{color:#ff4242;text-decoration:underline}
 .site-title{font-size:32px}
 .site-description{margin:10px 0 15px;}
 
-.nav a{padding:4px 10px 4px 0;display:inline-block;color:#999;}
-.nav a:hover,.nav a.current{color:#fff;border-radius:4px}
+.nav a{padding:2px 6px;display:inline-block;color:#999;background:rgba(0,0,0,.4);border-radius:4px}
+.nav a:hover,.nav a.current{color:#fff}
 
 .content{background-color:#fff;padding:20px 0;overflow:hidden}
 

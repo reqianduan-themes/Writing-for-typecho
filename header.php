@@ -11,7 +11,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?>
     </title>
-	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>?20140825">
 
 	<!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header(); ?>
