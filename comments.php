@@ -1,5 +1,5 @@
 <!-- 多说评论框 start -->
-<div id="comments">
+<div id="respond">
     <?php if($this->allow('comment')): ?>
         <div class="ds-thread" data-thread-key="<?php $this->cid(); ?>" data-title="<?php $this->title(); ?>" data-url="<?php $this->permalink(); ?>"></div>
     <?php endif; ?>
