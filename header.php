@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<!--
+******主题信息******
+* Theme Name: Writing for typecho
+* Theme URI: http://themes.xiguabaobao.com/Writing/
+* Description: Writing主题（免费） BUG反馈：<a href="http://themes.xiguabaobao.com/Writing-for-typecho/#respond">西瓜宝宝主题</a>
+* Author: 西瓜宝宝主题
+* Author URI: http://themes.xiguabaobao.com
+* Version: 1.0
+* © 2014 themes.xiguabaobao.com. All rights reserved.
+-->
 <html>
 <head>
 	<meta charset="utf-8">

@@ -6,7 +6,7 @@
 			</div>
 			
 			<div class="footer-right">
-				<a class="facebook" href="#">Top</a>
+				<a href="#">Top</a>
 			</div>
 			
 			<div class="clearfix"></div>
