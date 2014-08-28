@@ -183,6 +183,7 @@ ul,ol{margin-bottom:15px}
 ul ul,ol ul,ul ol,ol ol{margin-bottom:15px}
 kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:0 1px 0 rgba(22,32,41,0.25);box-shadow:0 1px 0 rgba(22,32,41,0.25);font-size:11px;font-family:Arial,Helvetica,sans-serif;background-color:#fff;color:#333;border-radius:3px;display:inline-block;margin:0 0.1em;white-space:nowrap}
 
+/*duoshuo.simple.css*/
 #respond{margin-top:30px;font-family:sans-serif}
 #respond #ds-thread{padding-bottom:30px}
 #respond #ds-thread #ds-reset .ds-comments-info{margin-top:0}
@@ -215,5 +216,5 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
 #respond #ds-thread #ds-reset li.ds-tab a.ds-comments-tab-duoshuo{border:0;background:#fff;color:#9f9f9f;font-size:20px;line-height:80px}
 #respond #ds-thread #ds-reset li.ds-tab a.ds-comments-tab-weibo{display:none}
 @media(min-width:768px){
-	#respond #ds-thread #ds-reset .ds-comment-footer{position:absolute;top:10px;right:0}
+	#respond #ds-thread #ds-reset .ds-comment-footer{position:absolute;top:0;right:0;line-height:1}
 }
