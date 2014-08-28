@@ -7,6 +7,7 @@
  * Version: 1.0
  * © 2014 themes.xiguabaobao.com. All rights reserved.
  */
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]){display:none;height:0}
@@ -57,6 +58,7 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 
+/* theme.css | themes.xiguabaobao.com */
 body{background-color:#292d33;color:#333;font:16px/1.6 Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif}
 a{color:#57ad68;text-decoration:none;word-break:break-word;}
 a:hover{color:#ff4242;text-decoration:underline}
@@ -135,6 +137,7 @@ a:hover{color:#ff4242;text-decoration:underline}
 	.footer-right{width:100%;float:right;text-align:center;margin-top:10px}
 }
 
+/* typography.css | themes.xiguabaobao.com */
 blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #e4e9ec}
 blockquote p{font-size:17.5px;font-weight:300;line-height:1.25}
 blockquote p:last-child{margin-bottom:0}
@@ -183,7 +186,7 @@ ul,ol{margin-bottom:15px}
 ul ul,ol ul,ul ol,ol ol{margin-bottom:15px}
 kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:0 1px 0 rgba(22,32,41,0.25);box-shadow:0 1px 0 rgba(22,32,41,0.25);font-size:11px;font-family:Arial,Helvetica,sans-serif;background-color:#fff;color:#333;border-radius:3px;display:inline-block;margin:0 0.1em;white-space:nowrap}
 
-/*duoshuo.simple.css*/
+/* duoshuo.simple.css | themes.xiguabaobao.com */
 #respond{margin-top:30px;font-family:sans-serif}
 #respond #ds-thread{padding-bottom:30px}
 #respond #ds-thread #ds-reset .ds-comments-info{margin-top:0}
