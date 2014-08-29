@@ -137,7 +137,7 @@ a:hover{color:#ff4242;text-decoration:underline}
 	.footer-right{width:100%;float:right;text-align:center;margin-top:10px}
 }
 
-/* typography.css | themes.xiguabaobao.com */
+/* typography.xiguabaobao.css | themes.xiguabaobao.com */
 blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #e4e9ec}
 blockquote p{font-size:17.5px;font-weight:300;line-height:1.25}
 blockquote p:last-child{margin-bottom:0}
@@ -186,7 +186,7 @@ ul,ol{margin-bottom:15px}
 ul ul,ol ul,ul ol,ol ol{margin-bottom:15px}
 kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:0 1px 0 rgba(22,32,41,0.25);box-shadow:0 1px 0 rgba(22,32,41,0.25);font-size:11px;font-family:Arial,Helvetica,sans-serif;background-color:#fff;color:#333;border-radius:3px;display:inline-block;margin:0 0.1em;white-space:nowrap}
 
-/* duoshuo.simple.css | themes.xiguabaobao.com */
+/* duoshuo.xiguabaobao.css | themes.xiguabaobao.com */
 #respond{margin-top:30px;font-family:sans-serif}
 #respond #ds-thread{padding-bottom:30px}
 #respond #ds-thread #ds-reset .ds-comments-info{margin-top:0}
